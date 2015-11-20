@@ -44,17 +44,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 5900 5425 0    60   Input ~ 0
+Text GLabel 6950 19850 0    60   Input ~ 0
 VCO1_PWM_CV
-Text GLabel 5875 5275 0    60   Input ~ 0
+Text GLabel 6950 19750 0    60   Input ~ 0
 VCO1_SYNC_IN
-Text GLabel 5975 6250 0    60   Output ~ 0
+Text GLabel 6950 20450 0    60   Output ~ 0
 VCO1_PULSE
-Text GLabel 5950 6075 0    60   Output ~ 0
+Text GLabel 6950 20350 0    60   Output ~ 0
 VCO1_SAW
-Text GLabel 5925 5925 0    60   Output ~ 0
+Text GLabel 6950 20250 0    60   Output ~ 0
 VCO1_TRI
-Text GLabel 5925 5575 0    60   Input ~ 0
+Text GLabel 6950 19950 0    60   Input ~ 0
 VCO1_PITCH_CV
 $Comp
 L C_US C?
@@ -555,7 +555,7 @@ F 3 "~" H 9225 8925 60  0000 C CNN
 $EndComp
 Text GLabel 5775 6875 0    60   Input ~ 0
 VCO1_SCALE
-Text GLabel 5925 5725 0    60   Input ~ 0
+Text GLabel 6950 20150 0    60   Input ~ 0
 VCO1_SCALE
 $Comp
 L +12V #PWR?
@@ -1205,45 +1205,45 @@ F 3 "" H 12650 9750 60  0000 C CNN
 	1    12650 9750
 	1    0    0    -1  
 $EndComp
-Text GLabel 5875 5125 0    60   Input ~ 0
+Text GLabel 6950 19650 0    60   Input ~ 0
 VCO1_TRI_SHAPE
 $Comp
 L +12V #PWR?
 U 1 1 564EED91
-P 6075 4900
-F 0 "#PWR?" H 6075 4750 50  0001 C CNN
-F 1 "+12V" H 6075 5040 50  0000 C CNN
-F 2 "" H 6075 4900 60  0000 C CNN
-F 3 "" H 6075 4900 60  0000 C CNN
-	1    6075 4900
+P 6050 23825
+F 0 "#PWR?" H 6050 23675 50  0001 C CNN
+F 1 "+12V" H 6050 23965 50  0000 C CNN
+F 2 "" H 6050 23825 60  0000 C CNN
+F 3 "" H 6050 23825 60  0000 C CNN
+	1    6050 23825
 	1    0    0    -1  
 $EndComp
 $Comp
 L -12V #PWR?
 U 1 1 564EEE20
-P 6075 5175
-F 0 "#PWR?" H 6075 5275 30  0001 C CNN
-F 1 "-12V" H 6075 5325 50  0000 C CNN
-F 2 "~" H 6075 5175 60  0000 C CNN
-F 3 "~" H 6075 5175 60  0000 C CNN
-	1    6075 5175
+P 6050 24250
+F 0 "#PWR?" H 6050 24350 30  0001 C CNN
+F 1 "-12V" H 6050 24400 50  0000 C CNN
+F 2 "~" H 6050 24250 60  0000 C CNN
+F 3 "~" H 6050 24250 60  0000 C CNN
+	1    6050 24250
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6075 5025 6075 4900
+	6050 23950 6050 23825
 Wire Wire Line
-	6075 5075 6075 5175
+	6050 24150 6050 24250
 Wire Wire Line
-	6750 5875 6750 6050
+	5825 24050 5825 24300
 $Comp
 L GND_E #PWR?
 U 1 1 564F0553
-P 6750 6050
-F 0 "#PWR?" V 6750 6050 30  0001 C CNN
-F 1 "GND_E" H 6750 5980 30  0001 C CNN
-F 2 "" H 6750 6050 60  0000 C CNN
-F 3 "" H 6750 6050 60  0000 C CNN
-	1    6750 6050
+P 5825 24300
+F 0 "#PWR?" V 5825 24300 30  0001 C CNN
+F 1 "GND_E" H 5825 24230 30  0001 C CNN
+F 2 "" H 5825 24300 60  0000 C CNN
+F 3 "" H 5825 24300 60  0000 C CNN
+	1    5825 24300
 	-1   0    0    -1  
 $EndComp
 Text GLabel 20900 13025 2    60   Output ~ 0
@@ -2949,17 +2949,17 @@ F 3 "~" H 27100 23600 60  0000 C CNN
 	1    27100 23600
 	1    0    0    -1  
 $EndComp
-Text GLabel 13225 22250 0    60   Input ~ 0
+Text GLabel 6950 22050 0    60   Input ~ 0
 VCF_IN
-Text GLabel 13300 22500 0    60   Input ~ 0
+Text GLabel 6950 22250 0    60   Input ~ 0
 RES_CTRL
-Text GLabel 13300 22900 0    60   Input ~ 0
+Text GLabel 6950 22150 0    60   Input ~ 0
 VCF_CTRL
-Text GLabel 13300 22800 0    60   Input ~ 0
+Text GLabel 6950 22650 0    60   Input ~ 0
 VCA_IN
-Text GLabel 13300 23200 0    60   Output ~ 0
+Text GLabel 6950 22750 0    60   Output ~ 0
 VCA_OUT
-Text GLabel 13300 22400 0    60   Input ~ 0
+Text GLabel 6950 22350 0    60   Input ~ 0
 VCA_CTRL
 Text Notes 13150 28600 0    100  ~ 0
 LM13700 Darlington pair buffers not used
@@ -3639,50 +3639,28 @@ F 3 "~" H 22650 26900 60  0000 C CNN
 	1    22650 26900
 	-1   0    0    1   
 $EndComp
-Text GLabel 13300 23350 0    60   Output ~ 0
+Text GLabel 6950 22550 0    60   Output ~ 0
 VCF_OUT
 Text GLabel 18050 22250 0    60   Input ~ 0
 VCA_IN
 Text Notes 17625 22050 0    60   ~ 0
 1μ DC blocking cap and \n100K resistor (for 10Vp-p input)\nneeded before VCA input stage.\nVCA offset adjust also needed.\nSee Juno 106 and Jupiter 8\nschematics.
-Text GLabel 6000 11100 0    60   Input ~ 0
+Text GLabel 6950 21050 0    60   Input ~ 0
 VCO2_PWM_CV
-Text GLabel 5975 10950 0    60   Input ~ 0
+Text GLabel 6950 20950 0    60   Input ~ 0
 VCO2_SYNC_IN
-Text GLabel 6075 11925 0    60   Output ~ 0
+Text GLabel 6950 21650 0    60   Output ~ 0
 VCO2_PULSE
-Text GLabel 6050 11750 0    60   Output ~ 0
+Text GLabel 6950 21550 0    60   Output ~ 0
 VCO2_SAW
-Text GLabel 6025 11600 0    60   Output ~ 0
+Text GLabel 6950 21450 0    60   Output ~ 0
 VCO2_TRI
-Text GLabel 6025 11250 0    60   Input ~ 0
+Text GLabel 6950 21150 0    60   Input ~ 0
 VCO2_PITCH_CV
-Text GLabel 6025 11400 0    60   Input ~ 0
+Text GLabel 6950 21350 0    60   Input ~ 0
 VCO2_SCALE
-Text GLabel 5975 10800 0    60   Input ~ 0
+Text GLabel 6950 20850 0    60   Input ~ 0
 VCO2_TRI_SHAPE
-$Comp
-L +12V #PWR?
-U 1 1 56530CFC
-P 6175 10575
-F 0 "#PWR?" H 6175 10425 50  0001 C CNN
-F 1 "+12V" H 6175 10715 50  0000 C CNN
-F 2 "" H 6175 10575 60  0000 C CNN
-F 3 "" H 6175 10575 60  0000 C CNN
-	1    6175 10575
-	1    0    0    -1  
-$EndComp
-$Comp
-L -12V #PWR?
-U 1 1 56530D02
-P 6175 10850
-F 0 "#PWR?" H 6175 10950 30  0001 C CNN
-F 1 "-12V" H 6175 11000 50  0000 C CNN
-F 2 "~" H 6175 10850 60  0000 C CNN
-F 3 "~" H 6175 10850 60  0000 C CNN
-	1    6175 10850
-	-1   0    0    1   
-$EndComp
 $Comp
 L TL074- U?
 U 1 1 56535524
@@ -4283,15 +4261,15 @@ Text Notes 29950 6400 0    60   ~ 0
 **adust R to get \nthreshold of 10V
 Text Notes 30650 7200 0    60   ~ 0
 *\nADJUST R7/R8 with T1/T2 \nto get 20-25 s max A/D/R\n
-Text GLabel 29000 3850 0    40   Input ~ 0
+Text GLabel 6950 23450 0    40   Input ~ 0
 EG1_RELEASE_CV
-Text GLabel 29000 3750 0    40   Input ~ 0
+Text GLabel 6950 23350 0    40   Input ~ 0
 EG1_SUSTAIN_CV
-Text GLabel 29000 3350 0    40   Input ~ 0
+Text GLabel 6950 23250 0    40   Input ~ 0
 EG1_DECAY_CV
-Text GLabel 29000 4150 0    40   Input ~ 0
+Text GLabel 6950 23650 0    40   Input ~ 0
 EG1_GATE
-Text GLabel 29000 3550 0    40   Output ~ 0
+Text GLabel 6950 23750 0    40   Output ~ 0
 EG1_ENV_OUT
 $Comp
 L C_US C?
@@ -4381,7 +4359,7 @@ F 3 "~" H 33150 3550 60  0000 C CNN
 	1    33150 3550
 	1    0    0    -1  
 $EndComp
-Text GLabel 29000 4050 0    40   Input ~ 0
+Text GLabel 6950 23150 0    40   Input ~ 0
 EG1_ATTACK_CV
 Text Notes 36450 6000 0    60   ~ 0
 **match C5 value between\n ADSR modules. 95nF gives\nmin attack of <1.5ms
@@ -4828,7 +4806,7 @@ Text GLabel 38400 6100 2    60   Output ~ 0
 EG1_INV_OUT
 Wire Wire Line
 	38000 4250 38150 4250
-Text GLabel 29000 3650 0    40   Output ~ 0
+Text GLabel 6950 23850 0    40   Output ~ 0
 EG1_INV_OUT
 $Comp
 L ENV10V U?
@@ -5170,11 +5148,11 @@ F 3 "~" H 27550 16600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 28050 15150 0    60   Input ~ 0
-EG1_RELEASE_CV
+EG2_RELEASE_CV
 Text GLabel 28050 15400 0    60   Input ~ 0
-EG1_SUSTAIN_CV
+EG2_SUSTAIN_CV
 Text GLabel 27950 14900 0    60   Input ~ 0
-EG1_DECAY_CV
+EG2_DECAY_CV
 $Comp
 L GND_E #PWR?
 U 1 1 56589883
@@ -5199,13 +5177,13 @@ F 3 "" H 30650 16050 60  0000 C CNN
 $EndComp
 $Comp
 L TL074- U?
-U 1 1 5658988F
+U 3 1 5658988F
 P 35800 16750
 F 0 "U?" H 35850 16950 60  0000 C CNN
 F 1 "TL074-" H 35950 16550 50  0000 C CNN
 F 2 "" H 35800 16750 60  0000 C CNN
 F 3 "" H 35800 16750 60  0000 C CNN
-	1    35800 16750
+	3    35800 16750
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -5265,13 +5243,13 @@ F 3 "" H 35900 16250 60  0000 C CNN
 $EndComp
 $Comp
 L TL074- U?
-U 1 1 565898B3
+U 4 1 565898B3
 P 34550 16100
 F 0 "U?" H 34600 16300 60  0000 C CNN
 F 1 "TL074-" H 34700 15900 50  0000 C CNN
 F 2 "" H 34550 16100 60  0000 C CNN
 F 3 "" H 34550 16100 60  0000 C CNN
-	1    34550 16100
+	4    34550 16100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -5298,13 +5276,13 @@ F 3 "~" H 34050 16400 60  0000 C CNN
 $EndComp
 $Comp
 L TL074- U?
-U 1 1 565898C5
+U 2 1 565898C5
 P 36700 14800
 F 0 "U?" H 36750 15000 60  0000 C CNN
 F 1 "TL074-" H 36850 14600 50  0000 C CNN
 F 2 "" H 36700 14800 60  0000 C CNN
 F 3 "" H 36700 14800 60  0000 C CNN
-	1    36700 14800
+	2    36700 14800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -5341,7 +5319,7 @@ F 3 "" H 37650 14800 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 38000 14800 2    60   Output ~ 0
-EG1_ENV_OUT
+EG2_ENV_OUT
 $Comp
 L GND_E #PWR?
 U 1 1 565898DE
@@ -5387,7 +5365,7 @@ F 3 "" H 29300 12500 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 27900 13200 0    60   Input ~ 0
-EG1_GATE
+EG2_GATE
 $Comp
 L R_US R?
 U 1 1 565898F7
@@ -5555,7 +5533,7 @@ F 3 "~" H 31650 16850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 28000 14650 0    60   Input ~ 0
-EG1_ATTACK_CV
+EG2_ATTACK_CV
 $Comp
 L R_US R?
 U 1 1 56589953
@@ -5613,13 +5591,13 @@ F 3 "~" H 32900 15300 60  0000 C CNN
 $EndComp
 $Comp
 L DMMT3904 Q?
-U 1 1 56589971
+U 2 1 56589971
 P 35650 14900
 F 0 "Q?" V 35550 15050 70  0000 C CNN
 F 1 "DMMT3904" H 35500 14650 70  0000 C CNN
 F 2 "~" H 35650 14900 60  0000 C CNN
 F 3 "~" H 35650 14900 60  0000 C CNN
-	1    35650 14900
+	2    35650 14900
 	0    1    -1   0   
 $EndComp
 $Comp
@@ -5646,29 +5624,29 @@ F 3 "~" H 34650 14300 60  0000 C CNN
 $EndComp
 $Comp
 L DMMT3906 Q?
-U 1 1 56589983
+U 2 1 56589983
 P 35650 14300
 F 0 "Q?" V 35550 14450 70  0000 C CNN
 F 1 "DMMT3906" H 35500 14050 70  0000 C CNN
 F 2 "~" H 35650 14300 60  0000 C CNN
 F 3 "~" H 35650 14300 60  0000 C CNN
-	1    35650 14300
+	2    35650 14300
 	0    1    1    0   
 $EndComp
 Text Notes 29550 14200 0    60   ~ 0
 **adust R to get \nthreshold of 10V
 Text Notes 30250 15000 0    60   ~ 0
 *\nADJUST R7/R8 with T1/T2 \nto get 20-25 s max A/D/R\n
-Text GLabel 28600 11650 0    40   Input ~ 0
-EG1_RELEASE_CV
-Text GLabel 28600 11550 0    40   Input ~ 0
-EG1_SUSTAIN_CV
-Text GLabel 28600 11150 0    40   Input ~ 0
-EG1_DECAY_CV
-Text GLabel 28600 11950 0    40   Input ~ 0
-EG1_GATE
-Text GLabel 28600 11350 0    40   Output ~ 0
-EG1_ENV_OUT
+Text GLabel 6950 24550 0    40   Input ~ 0
+EG2_RELEASE_CV
+Text GLabel 6950 24450 0    40   Input ~ 0
+EG2_SUSTAIN_CV
+Text GLabel 6950 24350 0    40   Input ~ 0
+EG2_DECAY_CV
+Text GLabel 6950 24750 0    40   Input ~ 0
+EG2_GATE
+Text GLabel 6950 24850 0    40   Output ~ 0
+EG2_ENV_OUT
 $Comp
 L C_US C?
 U 1 1 56589990
@@ -5740,7 +5718,7 @@ L -12V #PWR?
 U 1 1 565899B4
 P 33350 11800
 F 0 "#PWR?" H 33350 11900 30  0001 C CNN
-F 1 "-12V" H 33325 12075 60  0000 C CNN
+F 1 "-12V" H 33350 12000 60  0000 C CNN
 F 2 "~" H 33350 11800 60  0000 C CNN
 F 3 "~" H 33350 11800 60  0000 C CNN
 	1    33350 11800
@@ -5751,22 +5729,20 @@ L +12V #PWR?
 U 1 1 565899BA
 P 32750 11350
 F 0 "#PWR?" H 32750 11450 30  0001 C CNN
-F 1 "+12V" H 32725 11625 60  0000 C CNN
+F 1 "+12V" H 32750 11525 60  0000 C CNN
 F 2 "~" H 32750 11350 60  0000 C CNN
 F 3 "~" H 32750 11350 60  0000 C CNN
 	1    32750 11350
 	1    0    0    -1  
 $EndComp
-Text GLabel 28600 11850 0    40   Input ~ 0
-EG1_ATTACK_CV
+Text GLabel 6950 24250 0    40   Input ~ 0
+EG2_ATTACK_CV
 Text Notes 36050 13800 0    60   ~ 0
 **match C5 value between\n ADSR modules. 95nF gives\nmin attack of <1.5ms
 Text Notes 27600 14550 0    60   ~ 0
 0-10V CV
 Text Notes 27650 13100 0    60   ~ 0
 +5V
-Text Notes 29550 11025 0    100  ~ 0
-VC ADSR
 $Comp
 L +12V #PWR?
 U 1 1 565899C5
@@ -6201,11 +6177,11 @@ F 3 "~" H 37000 11650 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text GLabel 38000 13900 2    60   Output ~ 0
-EG1_INV_OUT
+EG2_INV_OUT
 Wire Wire Line
 	37600 12050 37750 12050
-Text GLabel 28600 11450 0    40   Output ~ 0
-EG1_INV_OUT
+Text GLabel 6950 24950 0    40   Output ~ 0
+EG2_INV_OUT
 $Comp
 L ENV10V U?
 U 1 1 56589AB3
@@ -6353,6 +6329,231 @@ Wire Wire Line
 	29800 13825 30150 13825
 Wire Wire Line
 	35750 12450 35750 12600
-Text Notes 29550 11300 0    60   ~ 0
-original design  by Massimo Ischia\nhttp://digilander.libero.it/ismsynth/vc-adsr-1.2.jpg\nadapted for 0-10V input and 0-10V output
+$Comp
+L CONN_02X60 P?
+U 1 1 565CB549
+P 7200 22300
+F 0 "P?" H 7200 25350 50  0000 C CNN
+F 1 "CONN_02X60" V 7200 23300 50  0000 C CNN
+F 2 "" H 7200 23300 60  0000 C CNN
+F 3 "" H 7200 23300 60  0000 C CNN
+	1    7200 22300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 23950 6950 23950
+Wire Wire Line
+	6050 24150 6950 24150
+Wire Wire Line
+	5825 24050 6950 24050
+$Comp
+L +12V #PWR?
+U 1 1 565E1F8D
+P 6050 20425
+F 0 "#PWR?" H 6050 20275 50  0001 C CNN
+F 1 "+12V" H 6050 20565 50  0000 C CNN
+F 2 "" H 6050 20425 60  0000 C CNN
+F 3 "" H 6050 20425 60  0000 C CNN
+	1    6050 20425
+	1    0    0    -1  
+$EndComp
+$Comp
+L -12V #PWR?
+U 1 1 565E1F93
+P 6050 20850
+F 0 "#PWR?" H 6050 20950 30  0001 C CNN
+F 1 "-12V" H 6050 21000 50  0000 C CNN
+F 2 "~" H 6050 20850 60  0000 C CNN
+F 3 "~" H 6050 20850 60  0000 C CNN
+	1    6050 20850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6050 20550 6050 20425
+Wire Wire Line
+	6050 20750 6050 20850
+Wire Wire Line
+	5825 20650 5825 20900
+$Comp
+L GND_E #PWR?
+U 1 1 565E1F9C
+P 5825 20900
+F 0 "#PWR?" V 5825 20900 30  0001 C CNN
+F 1 "GND_E" H 5825 20830 30  0001 C CNN
+F 2 "" H 5825 20900 60  0000 C CNN
+F 3 "" H 5825 20900 60  0000 C CNN
+	1    5825 20900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 20550 6950 20550
+Wire Wire Line
+	6050 20750 6950 20750
+Wire Wire Line
+	5825 20650 6950 20650
+Wire Wire Line
+	5825 20050 5825 20300
+$Comp
+L GND_E #PWR?
+U 1 1 565E424A
+P 5825 20300
+F 0 "#PWR?" V 5825 20300 30  0001 C CNN
+F 1 "GND_E" H 5825 20230 30  0001 C CNN
+F 2 "" H 5825 20300 60  0000 C CNN
+F 3 "" H 5825 20300 60  0000 C CNN
+	1    5825 20300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 20050 6950 20050
+Wire Wire Line
+	5825 21250 5825 21500
+$Comp
+L GND_E #PWR?
+U 1 1 565EC009
+P 5825 21500
+F 0 "#PWR?" V 5825 21500 30  0001 C CNN
+F 1 "GND_E" H 5825 21430 30  0001 C CNN
+F 2 "" H 5825 21500 60  0000 C CNN
+F 3 "" H 5825 21500 60  0000 C CNN
+	1    5825 21500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 21250 6950 21250
+$Comp
+L +12V #PWR?
+U 1 1 565EE2B0
+P 6050 21625
+F 0 "#PWR?" H 6050 21475 50  0001 C CNN
+F 1 "+12V" H 6050 21765 50  0000 C CNN
+F 2 "" H 6050 21625 60  0000 C CNN
+F 3 "" H 6050 21625 60  0000 C CNN
+	1    6050 21625
+	1    0    0    -1  
+$EndComp
+$Comp
+L -12V #PWR?
+U 1 1 565EE2B6
+P 6050 22050
+F 0 "#PWR?" H 6050 22150 30  0001 C CNN
+F 1 "-12V" H 6050 22200 50  0000 C CNN
+F 2 "~" H 6050 22050 60  0000 C CNN
+F 3 "~" H 6050 22050 60  0000 C CNN
+	1    6050 22050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6050 21750 6050 21625
+Wire Wire Line
+	6050 21950 6050 22050
+Wire Wire Line
+	5825 21850 5825 22100
+$Comp
+L GND_E #PWR?
+U 1 1 565EE2BF
+P 5825 22100
+F 0 "#PWR?" V 5825 22100 30  0001 C CNN
+F 1 "GND_E" H 5825 22030 30  0001 C CNN
+F 2 "" H 5825 22100 60  0000 C CNN
+F 3 "" H 5825 22100 60  0000 C CNN
+	1    5825 22100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 21750 6950 21750
+Wire Wire Line
+	6050 21950 6950 21950
+Wire Wire Line
+	5825 21850 6950 21850
+Wire Wire Line
+	5825 22450 5825 22700
+$Comp
+L GND_E #PWR?
+U 1 1 565F3869
+P 5825 22700
+F 0 "#PWR?" V 5825 22700 30  0001 C CNN
+F 1 "GND_E" H 5825 22630 30  0001 C CNN
+F 2 "" H 5825 22700 60  0000 C CNN
+F 3 "" H 5825 22700 60  0000 C CNN
+	1    5825 22700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 22450 6950 22450
+$Comp
+L +12V #PWR?
+U 1 1 565FB70C
+P 6050 22725
+F 0 "#PWR?" H 6050 22575 50  0001 C CNN
+F 1 "+12V" H 6050 22865 50  0000 C CNN
+F 2 "" H 6050 22725 60  0000 C CNN
+F 3 "" H 6050 22725 60  0000 C CNN
+	1    6050 22725
+	1    0    0    -1  
+$EndComp
+$Comp
+L -12V #PWR?
+U 1 1 565FB712
+P 6050 23150
+F 0 "#PWR?" H 6050 23250 30  0001 C CNN
+F 1 "-12V" H 6050 23300 50  0000 C CNN
+F 2 "~" H 6050 23150 60  0000 C CNN
+F 3 "~" H 6050 23150 60  0000 C CNN
+	1    6050 23150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6050 22850 6050 22725
+Wire Wire Line
+	6050 23050 6050 23150
+Wire Wire Line
+	5825 22950 5825 23200
+$Comp
+L GND_E #PWR?
+U 1 1 565FB71B
+P 5825 23200
+F 0 "#PWR?" V 5825 23200 30  0001 C CNN
+F 1 "GND_E" H 5825 23130 30  0001 C CNN
+F 2 "" H 5825 23200 60  0000 C CNN
+F 3 "" H 5825 23200 60  0000 C CNN
+	1    5825 23200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 22850 6950 22850
+Wire Wire Line
+	6050 23050 6950 23050
+Wire Wire Line
+	5825 22950 6950 22950
+Wire Wire Line
+	5825 23550 5825 23800
+$Comp
+L GND_E #PWR?
+U 1 1 565FF08E
+P 5825 23800
+F 0 "#PWR?" V 5825 23800 30  0001 C CNN
+F 1 "GND_E" H 5825 23730 30  0001 C CNN
+F 2 "" H 5825 23800 60  0000 C CNN
+F 3 "" H 5825 23800 60  0000 C CNN
+	1    5825 23800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 23550 6950 23550
+Wire Wire Line
+	5825 24650 5825 24900
+$Comp
+L GND_E #PWR?
+U 1 1 56603FD1
+P 5825 24900
+F 0 "#PWR?" V 5825 24900 30  0001 C CNN
+F 1 "GND_E" H 5825 24830 30  0001 C CNN
+F 2 "" H 5825 24900 60  0000 C CNN
+F 3 "" H 5825 24900 60  0000 C CNN
+	1    5825 24900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 24650 6950 24650
 $EndSCHEMATC
