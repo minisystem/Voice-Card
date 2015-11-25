@@ -5,7 +5,7 @@
     (no_connects 249)
     (area 68.504999 63.107499 207.974001 96.023501)
     (thickness 1.6)
-    (drawings 13)
+    (drawings 15)
     (tracks 1268)
     (zones 0)
     (modules 207)
@@ -6587,6 +6587,8 @@
       (net 3 -12V))
   )
 
+  (gr_line (start 71.7 63.2) (end 71.7 88.2) (angle 90) (layer F.Fab) (width 0.2))
+  (gr_line (start 204.8 63.2) (end 204.8 88.2) (angle 90) (layer F.Fab) (width 0.2))
   (gr_line (start 68.58 63.1825) (end 207.899 63.1825) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 68.58 88.2015) (end 68.58 63.1825) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 98.6155 88.2015) (end 68.58 88.2015) (angle 90) (layer Edge.Cuts) (width 0.15))
